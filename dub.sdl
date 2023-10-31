@@ -4,6 +4,7 @@ authors					"Adam Williams"
 copyright				"Copyright © 2020-2023, Adam Williams"
 license					"MIT"
 
+version					"0.2.0"
 dependency				"vibe-core"		version="~>1.9"
 
 configuration "lib" {

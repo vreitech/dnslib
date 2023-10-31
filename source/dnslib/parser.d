@@ -337,7 +337,7 @@ dnsParserResult dnsParse(const ref ubyte[] input, ref dnsMessage myDnsMessage, b
 		assert(tempInputPtr == inputPtr);
 
 		import std.string: join;
-		assert(myResponseSection.responseString == myResponseSection.responseElements.join(" "));
+		assert(myResponseSection.responseString == myResponseSection.responseElements.join(" ") || myResponseSection.responseString == myResponseSection.responseElements.join(""));
 
 	}  // parseResponse
 
